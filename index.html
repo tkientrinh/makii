@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Makii Restaurant</title>
+
+    <style>
+    body {
+        padding-left: 100px;
+        padding-right: 100px;
+        background-color: black;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .header-image {
+        width: 100%;
+        height: 450px;
+        object-fit: cover;
+        object-position: 60% 40%;
+    }
+.willkommen {
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    position: sticky;
+    top: 0px;
+
+} 
+a {
+    color: red;
+    text-decoration: none;
+    margin-left: 16px;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.beschreibungstext {
+    padding: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.uberschrift {
+    color: white;
+}
+.maps-container {
+    margin-top: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.anfahrt-beschreibung {
+    margin-left: 16px;
+    width: 30%;
+    color: white;
+}
+
+.maps-frame{
+    border: 0;
+    height: 350px;
+    width: 70%;
+}
+
+.rechtliches{
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+}
+
+.legal-text {
+    margin-right: 16px;
+    color: white;
+
+}
+.logo{
+    width: 150px;
+}
+
+.menu {
+    width: 400px;
+}
+    </style>
+</head>
+<body>
+    <div class="navbar"> 
+    <a href="/"> <img class="logo" src="Logo_Bild.jpg" alt="Logo Makii"></a>
+    
+        <div>
+        <a href="#">Aktuelles</a>
+        <a href="#menu">Speisekarte</a>
+        <a href="#zeit">Öffnungszeiten</a>
+        <a href="#anfahrt">Anfahrt</a>
+        </div>
+    </div>
+        <h1 class = "willkommen">
+        Willkommen zu Makii Restaurant! </h1>
+
+        <img class="header-image" src="foto_innen.jpg" alt="Foto innen">
+        <p class="beschreibungstext">
+            Direkt neben Kongresshalle bieten wir vielfältige asiatische Spezialitäten an, egal ob Sushi oder Nudelsuppe. Täglich bereiten wir frisches Essen und feinen Gerichte zu. Für jeden ist etwas dabei.
+        </p>
+
+        <section id="menu">
+            <h2 class="uberschrift">Unsere Speisekarte</h2>
+            <img class="menu" src="0001.jpg" alt="Speisekarte - Seite 1">
+        </section>
+
+        <section id="zeit">
+            <h2 class="uberschrift">Unsere Öffnungszeiten</h2>
+           <p class="beschreibungstext"> Dienstag - Sonntag: 11:30 - 14:30 und 17:00 - 22:00 </br>
+        Montag: Ruhetag</p>
+
+        </section>
+
+        <section id="anfahrt">
+            <h2 class="uberschrift">So finden Sie uns</h2>
+        <div class="maps-container">
+        <iframe class="maps-frame" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2651.1342855432667!2d10.885960315181991!3d48.35794324376659!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479ea3a728055c3d%3A0x8a26d32c85e0bce6!2sMakii%20Restaurant!5e0!3m2!1sde!2sde!4v1674062837681!5m2!1sde!2sde" 
+         allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="anfahrt-beschreibung">
+                Mit dem ÖPNV: Mit der Tramlinie 1 - Haltestelle "Kongress am Park"
+
+            </div>
+    </div>
+</section>
+</body>
+
+<footer>
+    <div class="rechtliches">
+        <span class="legal-text">(c) 2023 - Makii Restaurant </span> |  <a href="/impressum.html">Impressum</a>   |  <a href="/datenschutz.html">Datenschutz</a>
+
+    </div>
+</footer>
+
+</html>
